@@ -1,0 +1,291 @@
+[{
+  "_id": {
+    "$oid": "5f02d444a1847c6be08ed589"
+  },
+  "name": "Student Discount",
+  "url": "https://www.showpo.com/student-discount.html",
+  "standard": "WCAG2A",
+  "headers": null
+},{
+  "_id": {
+    "$oid": "5f02d48aa1847c6be08ed58c"
+  },
+  "name": "Shipping Info",
+  "url": "https://www.showpo.com/shipping-info/",
+  "standard": "WCAG2A",
+  "headers": null
+},{
+  "_id": {
+    "$oid": "5f02d48aa1847c6be08ed58d"
+  },
+  "name": "Returns Info",
+  "url": "https://www.showpo.com/returnsinfo/",
+  "standard": "WCAG2A",
+  "headers": null
+},{
+  "_id": {
+    "$oid": "5f02d48aa1847c6be08ed58f"
+  },
+  "name": "Home Page",
+  "url": "https://www.showpo.com/",
+  "standard": "WCAG2A",
+  "headers": null
+},{
+  "_id": {
+    "$oid": "5f02d48aa1847c6be08ed58e"
+  },
+  "name": "Size Chart",
+  "url": "https://www.showpo.com/general-sizing-chart.html",
+  "standard": "WCAG2A",
+  "headers": null
+},{
+  "_id": {
+    "$oid": "5f02d48aa1847c6be08ed590"
+  },
+  "name": "Catalog Page",
+  "url": "https://www.showpo.com/dresses/",
+  "standard": "WCAG2A",
+  "headers": null
+},{
+  "_id": {
+    "$oid": "5f02d48aa1847c6be08ed592"
+  },
+  "name": "Wishlist",
+  "url": "https://www.showpo.com/wishlist/",
+  "standard": "WCAG2A",
+  "headers": null
+},{
+  "_id": {
+    "$oid": "5f02d48aa1847c6be08ed591"
+  },
+  "name": "Sales Page",
+  "url": "https://www.showpo.com/sale/",
+  "standard": "WCAG2A",
+  "headers": null
+},{
+  "_id": {
+    "$oid": "5f02d48aa1847c6be08ed593"
+  },
+  "name": "Help Centre",
+  "url": "https://www.showpo.com/helpcentre/",
+  "standard": "WCAG2A",
+  "headers": null
+},{
+  "_id": {
+    "$oid": "5f02d643a1847c6be08ed594"
+  },
+  "name": "Login",
+  "url": "https://www.showpo.com/login/",
+  "standard": "WCAG2A",
+  "headers": {},
+  "actions": [],
+  "timeout": 30000,
+  "wait": 0
+},{
+  "_id": {
+    "$oid": "5f032e3a9a67415eb4756914"
+  },
+  "name": "Cart",
+  "url": "https://www.showpo.com/cart/",
+  "standard": "WCAG2AA",
+  "headers": {},
+  "actions": [
+    "navigate to url https://www.showpo.com/dresses/",
+    "click element button[title=\"Add to bag\"]",
+    "navigate to url https://www.showpo.com/cart/"
+  ],
+  "timeout": 30000,
+  "wait": 0
+},{
+  "_id": {
+    "$oid": "5f032ffecb9cc16320d058eb"
+  },
+  "name": "Account",
+  "url": "https://www.showpo.com/account",
+  "standard": "WCAG2A",
+  "actions": [
+    "navigate to https://www.showpo.com/login/",
+    "set field #login-form-email to test@example.com",
+    "set field #login-form-password to testPassword!!12",
+    "click element .login-button",
+    "wait for url to be https://www.showpo.com/account/?registration=false"
+  ],
+  "headers": {},
+  "timeout": 25000,
+  "wait": 10000
+},{
+  "_id": {
+    "$oid": "5f03c873cb9cc16320d05913"
+  },
+  "name": "Checkout Member/Guest",
+  "url": "https://www.showpo.com/checkout-login/",
+  "standard": "WCAG2A",
+  "actions": [
+    "navigate to url https://www.showpo.com/shoes/",
+    "click element button[title=\"Add to bag\"]",
+    "navigate to url https://www.showpo.com/cart/",
+    "click element .go-to-checkout",
+    "wait for path to be /checkout-login/",
+    "screen capture ab.png"
+  ],
+  "headers": {},
+  "timeout": 30000,
+  "wait": 1000
+},{
+  "_id": {
+    "$oid": "5f03c986cb9cc16320d05914"
+  },
+  "name": "Checkout Shipping",
+  "url": "https://www.showpo.com/checkoutbegin/?stage=shipping#shipping",
+  "standard": "WCAG2A",
+  "actions": [
+    "navigate to url https://www.showpo.com/shoes/",
+    "click element button[title=\"Add to bag\"]",
+    "navigate to url https://www.showpo.com/cart/",
+    "click element .go-to-checkout",
+    "wait for path to be /checkout-login/",
+    "click element .checkout-as-guest-button",
+    "wait for url to be https://www.showpo.com/checkoutbegin/?stage=shipping#shipping"
+  ],
+  "headers": {},
+  "timeout": 30000,
+  "wait": 0
+},{
+  "_id": {
+    "$oid": "5f046fb39554b73b2443a056"
+  },
+  "name": "Product Detail Page",
+  "url": "https://www.showpo.com/keep-the-party-going-dress-in-wine-lurex.html",
+  "standard": "WCAG2A",
+  "headers": null
+},{
+  "_id": {
+    "$oid": "5f05cc5fec5a223b24b2084a"
+  },
+  "name": "Checkout Login - AB Test Checkout Reduced Login Options Page 2",
+  "url": "https://www.showpo.com/checkoutbegin/checkout-login-?n=1",
+  "standard": "WCAG2AA",
+  "timeout": 30000,
+  "actions": [
+    "navigate to url https://www.showpo.com/shoes/",
+    "click element button[title=\"Add to bag\"]",
+    "navigate to url https://www.showpo.com/cart/",
+    "click element .go-to-checkout",
+    "wait for path to be /checkout-login/",
+    "set field input[type=\"email\"] to test@example.com",
+    "click element .login-validate-email",
+    "wait for url to be https://www.showpo.com/checkout-login/?n=1"
+  ],
+  "headers": {},
+  "wait": 0
+},{
+  "_id": {
+    "$oid": "5f05d3b8f2ec737cd4805647"
+  },
+  "name": "Checkout Payments",
+  "url": "https://www.showpo.com/checkoutbegin/?stage=payment#payment",
+  "standard": "WCAG2AA",
+  "timeout": 30000,
+  "actions": [
+    "navigate to url https://www.showpo.com/shoes/",
+    "click element button[title=\"Add to bag\"]",
+    "navigate to url https://www.showpo.com/cart/",
+    "click element .go-to-checkout",
+    "wait for path to be /checkout-login/",
+    "click element .checkout-as-guest-button",
+    "wait for url to be https://www.showpo.com/checkoutbegin/?stage=shipping#shipping",
+    "set field #shippingEmaildefault to test@example.com",
+    "set field #shippingFirstNamedefault to Test",
+    "set field #shippingLastNamedefault to Tester",
+    "set field #shippingPhoneNumberdefault to 044659387473",
+    "set field #shippingAddressOnedefault to 55 Tester Street",
+    "set field #shippingAddressCitydefault to Testfield",
+    "set field #shippingZipCodedefault to 2000",
+    "set field #shippingStatedefault to NSW",
+    "set field #shippingCountrydefault to AU",
+    "wait for element input[value=\"twilight\"] to be visible",
+    "click element input[value=\"twilight\"]",
+    "click element .submit-shipping",
+    "wait for url to be https://www.showpo.com/checkoutbegin/?stage=payment#payment"
+  ],
+  "headers": {},
+  "wait": 1000
+},{
+  "_id": {
+    "$oid": "5f05d79eec5a223b24b2084c"
+  },
+  "name": "Sign Up",
+  "url": "https://www.showpo.com/login/#register",
+  "standard": "WCAG2A",
+  "headers": null
+},{
+  "_id": {
+    "$oid": "5f0fc1b4c3f96923f083ab64"
+  },
+  "name": "Checkout Payments - Path AB Test Checkout Reduced Login Options",
+  "url": "https://www.showpo.com/checkoutbegin/?stage=payment#payment",
+  "standard": "WCAG2AA",
+  "timeout": 30000,
+  "actions": [
+    "navigate to url https://www.showpo.com/shoes/",
+    "click element button[title=\"Add to bag\"]",
+    "navigate to url https://www.showpo.com/cart/",
+    "click element .go-to-checkout",
+    "wait for path to be /checkout-login/",
+    "set field input[type=\"email\"] to test@example.com",
+    "click element .login-validate-email",
+    "wait for url to be https://www.showpo.com/checkout-login/?n=1",
+    "navigate to https://www.showpo.com/checkoutbegin/",
+    "wait for url to be https://www.showpo.com/checkoutbegin/?stage=shipping#shipping",
+    "set field #shippingEmaildefault to test@example.com",
+    "set field #shippingFirstNamedefault to Test",
+    "set field #shippingLastNamedefault to Tester",
+    "set field #shippingPhoneNumberdefault to 044659387473",
+    "set field #shippingAddressOnedefault to 55 Tester Street",
+    "set field #shippingAddressCitydefault to Testfield",
+    "set field #shippingZipCodedefault to 2000",
+    "set field #shippingStatedefault to NSW",
+    "set field #shippingCountrydefault to AU",
+    "click element input[value=\"twilight\"]",
+    "click element .submit-shipping",
+    "wait for url to be https://www.showpo.com/checkoutbegin/?stage=payment#payment"
+  ],
+  "headers": {},
+  "wait": 0
+},{
+  "_id": {
+    "$oid": "5f0fc22bc3f96923f083ab65"
+  },
+  "name": "Checkout Login - AB Test Checkout Reduced Login Options Page 1",
+  "url": "https://www.showpo.com/checkoutbegin/checkout-login-?n=1",
+  "standard": "WCAG2AA",
+  "timeout": 30000,
+  "actions": [
+    "navigate to url https://www.showpo.com/shoes/",
+    "click element button[title=\"Add to bag\"]",
+    "navigate to url https://www.showpo.com/cart/",
+    "click element .go-to-checkout",
+    "wait for url to be https://www.showpo.com/checkout-login/"
+  ],
+  "headers": {},
+  "wait": 0
+},{
+  "_id": {
+    "$oid": "5f0fc333c3f96923f083ab66"
+  },
+  "name": "Checkout Login - Path AB Test Checkout Full Login Options",
+  "url": "https://www.showpo.com/checkoutbegin/?stage=payment#payment",
+  "standard": "WCAG2AA",
+  "timeout": 30000,
+  "actions": [
+    "navigate to url https://www.showpo.com/shoes/",
+    "click element button[title=\"Add to bag\"]",
+    "navigate to url https://www.showpo.com/cart/",
+    "click element .go-to-checkout",
+    "wait for path to be /checkout-login/",
+    "click element .checkout-as-guest-button",
+    "wait for url to be https://www.showpo.com/checkoutbegin/?stage=shipping#shipping"
+  ],
+  "headers": {},
+  "wait": 0
+}]

@@ -32,7 +32,7 @@ if (fs.existsSync(jsonPath)) {
 		webservice: env('WEBSERVICE_URL', {
 			database: env('WEBSERVICE_DATABASE', 'mongodb://localhost/pa11y-webservice'),
 			host: env('WEBSERVICE_HOST', '0.0.0.0'),
-			port: Number(env('WEBSERVICE_PORT', '3000')),
+			port: Number(env('WEBSERVICE_PORT', '27017')),
 			cron: env('WEBSERVICE_CRON', false)
 		})
 	};

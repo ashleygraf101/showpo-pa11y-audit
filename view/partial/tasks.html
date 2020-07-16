@@ -18,7 +18,7 @@ along with Pa11y Dashboard.  If not, see <http://www.gnu.org/licenses/>.
 <ul class="list-unstyled clearfix crunch-bottom">
 
 	{{#unless readonly}}
-	        <li class="col-md-4 col-sm-6 task-card add-task">
+	        <li class="col-md-12 col-sm-6 task-card add-task">
 			<a class="well task-card-link crunch-bottom" data-role="add-task" href="/new" data-test="add-task">
 				<p class="h3 crunch">Add new URL</p>
 				<p class="supersize-me crunch">+</p>
@@ -26,7 +26,7 @@ along with Pa11y Dashboard.  If not, see <http://www.gnu.org/licenses/>.
 		</li>
 	{{/unless}}
 	{{#each tasks}}
-		<li class="col-md-4 col-sm-6 task-card" data-test="task" data-role="task" data-keywords="{{lowercase name}} {{lowercase standard}} {{simplify-url url}}">
+		<li class="col-md-12 col-sm-6 task-card" data-test="task" data-role="task" data-keywords="{{lowercase name}} {{lowercase standard}} {{simplify-url url}}">
 			<a class="well task-card-link crunch-bottom" title="Details for URL {{simplify-url url}}" href="{{href}}">
 				<p class="h3">{{name}}</p>
 				<p class="h5">({{standard}})</p>
