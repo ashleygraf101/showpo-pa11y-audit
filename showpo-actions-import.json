@@ -87,7 +87,7 @@
   },
   "name": "Cart",
   "url": "https://www.showpo.com/cart/",
-  "standard": "WCAG2AA",
+  "standard": "WCAG2A",
   "headers": {},
   "actions": [
     "navigate to url https://www.showpo.com/dresses/",
@@ -164,7 +164,7 @@
   },
   "name": "Checkout Login - AB Test Checkout Reduced Login Options Page 2",
   "url": "https://www.showpo.com/checkoutbegin/checkout-login-?n=1",
-  "standard": "WCAG2AA",
+  "standard": "WCAG2A",
   "timeout": 30000,
   "actions": [
     "navigate to url https://www.showpo.com/shoes/",
@@ -184,7 +184,7 @@
   },
   "name": "Checkout Payments",
   "url": "https://www.showpo.com/checkoutbegin/?stage=payment#payment",
-  "standard": "WCAG2AA",
+  "standard": "WCAG2A",
   "timeout": 30000,
   "actions": [
     "navigate to url https://www.showpo.com/shoes/",
@@ -224,7 +224,7 @@
   },
   "name": "Checkout Payments - Path AB Test Checkout Reduced Login Options",
   "url": "https://www.showpo.com/checkoutbegin/?stage=payment#payment",
-  "standard": "WCAG2AA",
+  "standard": "WCAG2A",
   "timeout": 30000,
   "actions": [
     "navigate to url https://www.showpo.com/shoes/",
@@ -258,7 +258,7 @@
   },
   "name": "Checkout Login - AB Test Checkout Reduced Login Options Page 1",
   "url": "https://www.showpo.com/checkoutbegin/checkout-login-?n=1",
-  "standard": "WCAG2AA",
+  "standard": "WCAG2A",
   "timeout": 30000,
   "actions": [
     "navigate to url https://www.showpo.com/shoes/",
@@ -275,7 +275,7 @@
   },
   "name": "Checkout Login - Path AB Test Checkout Full Login Options",
   "url": "https://www.showpo.com/checkoutbegin/?stage=payment#payment",
-  "standard": "WCAG2AA",
+  "standard": "WCAG2A",
   "timeout": 30000,
   "actions": [
     "navigate to url https://www.showpo.com/shoes/",
