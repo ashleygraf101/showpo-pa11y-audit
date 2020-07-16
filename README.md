@@ -12,16 +12,16 @@ Pa11y Dashboard is a web interface to the [Pa11y][pa11y] accessibility reporter;
 
 ---
 
-## Requirements
+## About
 
 I have created an accessibility audit tool for ShowPo which runs at 12:30pm each night. As ShowPo runs A/B tests, some checkout tests could potentially be flakey. To rectify this, they could build a parameter for Selenium to 'choose' an A/B test case so they can check pages like Checkout Shipping & Payments & Order Received. This allows them to test the accessibility of both paths. As I do not have access to these parameters, the tests with the note A/B have to be run separately until success. 
 
 ## Setup
 
-In order to run Pa11y Dashboard, we recommend cloning this repository locally:
+In order to run this Pa11y Dashboard, I recommend cloning the repository locally:
 
 ```sh
-git clone https://github.com/pa11y/pa11y-dashboard.git
+git clone https://github.com/ashleygraf101/showpo-pa11y-audit.git
 ```
 
 Then installing the dependencies:
