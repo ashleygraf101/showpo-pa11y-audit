@@ -27,7 +27,7 @@ git clone https://github.com/ashleygraf101/showpo-pa11y-audit.git
 Then installing the dependencies:
 
 ```sh
-cd pa11y-dashboard
+cd showpo-pa11y-audit
 npm install
 ```
 
