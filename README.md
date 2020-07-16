@@ -45,7 +45,9 @@ There are three steps to import the data for the inital run of tests
 
 3. Import the actions into MongoDB: filename ```showpo-actions-import.json```
 
-Final step. Run the server!
+Final step. Change username & password to your username and password for Showpo. 
+
+Then run the server!
 
 ```sh
 NODE_ENV=production node index.js
